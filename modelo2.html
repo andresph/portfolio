@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume APH</title>
+    <style>
+      .photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .row img {
+        margin: 5px;
+      }
+
+      .column {
+        flex-basis: calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px);
+      }
+
+      @media (max-width: 768px) {
+        .column {
+          flex-basis: calc(50% - 10px);
+          max-width: calc(50% - 10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="photos">
+      <div class="row">
+        <div class="column">
+          <img src="images/foto1.jpg" alt="Foto 1" width="200px" height="200px" />
+        </div>
+        <div class="column">
+          <img src="images/cube2.jpg" alt="Foto 2" width="200px" height="200px" />
+        </div>
+        <div class="column">
+          <img src="images/einstein.jpg" alt="Foto 3" width="200px" height="200px" />
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="images/house1.jpg" alt="Foto 4" width="200px" height="200px" />
+        </div>
+        <div class="column">
+          <img src="images/mypto.jpg" alt="Foto 5" width="200px" height="200px" />
+        </div>
+        <div class="column">
+          <img src="images/p3.png" alt="Foto 6" width="200px" height="200px" />
+        </div>
+      </div>
+    </div>
+
+    <h1>
+      RESUME<br />
+      Andres Paredes Horna
+    </h1>
+    <div class="contact">
+      <h4>
+        mrandresph@gmail.com<br />
+        Linkedin:
+        <a href="https://www.linkedin.com/in/andresparedeshorna" target="_blank"
+          >linkedin.com/in/andresparedeshorna</a
+        >
+      </h4>
+      <br />
+      <br />
+      <br />
+    </div>
+    <div class="summary">
+      <h2>Summary</h2>
+      <p>
+        Sumary info .......<br />
+      </p>
+    </div>
+    <div class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>line1</li>
+        <li>line2</li>
+      </ul>
+    </div>
+    <div class="personal">
+      <h2>Personal Information</h2>
+      <ul>
+        <li>info line1</li>
+        <li>info line2</li>
+      </ul>
+    </div>
+
+    <div class="skills">
+      <h2>Technical Skills</h2>
+      <h3>Software Skills:</h3>
+      <ul>
+        <li>software 1</li>
+        <li>software 2</li>
+      </ul>
+      <h3>Microcontrollers:</h3>
+      <ul>
+        <li>micro1</li>
+        <li>micro2</li>
+      </ul>
+    </div>
+    <div class="projects">
+      <h2>Significant Projects</h2>
+      <ul>
+        <li>
+          <h3>month1:</h3>
+          <p>proj1</p>
+          <p>Description and activities:</p>
+          <ul>
+            <li>line1</li>
+            <li>line2</li>
+          </ul>
+        </li>
+        <hr />
+
+        <li>
+          <h3>month2:</h3>
+          <p>proj2.<br />Sao Jose.</p>
+          <p>Description and activities:</p>
+          <ul>
+            <li>line1</li>
+            <li>line2</li>
+          </ul>
+        </li>
+        <hr />
+      </ul>
+    </div>
+    <div class="training">
+      <h2>Technical Training</h2>
+      <ul>
+        <li>2016-2016: VLSI Systems.<br />Brazil.</li>
+        <li>2015-2015: VHDL <br />Brazil.</li>
+      </ul>
+    </div>
+
+    <script>
+      // Código JavaScript si es necesario
+    </script>
+  </body>
+</html>

@@ -1,8 +1,10 @@
 /* Estilos generales */
-
+html{
+  height: 100%;
+}
 body {
   font-family: Arial, sans-serif;
-  margin: auto 50px;
+  margin: auto 100px;
 }
 
 h1 {
@@ -11,23 +13,20 @@ h1 {
   text-align: center;
 }
 
+/*
 h2 {
-  font-size: 22px;
-  margin-bottom: 10px;
-  background-color:skyblue;
-  padding-left: 10px;
+  font-size: 22px; 
 }
 h3 {
-font-size: 18px;
-margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
-
 h4 {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 10px;
 }
-  
+*/  
 
 p {
   margin-bottom: 5px;
@@ -38,34 +37,41 @@ li {
 text-align: justify;
 }
 
+.bluebox {
+  margin-bottom: 10px;
+  background-color:skyblue;
+  padding-left: 10px;
+}
+
 .contact {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
-.summary {
-  margin-bottom: 20px;
-}
-
-.education {
-  margin-bottom: 20px;
-}
-
-.skills {
-  margin-bottom: 20px;
-}
-
-.projects {
-  margin-bottom: 20px;
-}
-
-.training {
-  margin-bottom: 20px;
-}
+/*
 .centerp{
 text-align: center;
 font-weight: bold;
 }
-.publications {
+*/
+
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.row img {
+  margin: 5px;
 }
